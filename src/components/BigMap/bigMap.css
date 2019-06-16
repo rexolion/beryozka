@@ -1,0 +1,7 @@
+.Map > *{
+    height: 100vh !important;
+    width: 100% !important;
+}
+.Map {
+    width: 100%;
+}

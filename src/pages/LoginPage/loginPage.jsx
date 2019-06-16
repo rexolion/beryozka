@@ -1,8 +1,14 @@
 import React from 'react';
+import BigMap from '../../components/BigMap/bigMap';
+import SideBarWrap from '../../components/SideBarWrap/sideBarWrap';
+import Header from '../../components/Header/header'
 
 const LoginPage = () => (
     <div className="Container">
-        Hey
+       <SideBarWrap>
+           <Header />
+       </SideBarWrap>
+       <BigMap />
     </div>
 );
 
