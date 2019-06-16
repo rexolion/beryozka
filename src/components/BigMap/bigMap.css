@@ -5,3 +5,13 @@
 .Map {
     width: 100%;
 }
+
+.Map_blur > *{
+    height: 100vh !important;
+    width: 100% !important;
+    filter: blur(1px);
+}
+.Map_blur {
+    width: 100%;
+    filter: blur(1px);
+}

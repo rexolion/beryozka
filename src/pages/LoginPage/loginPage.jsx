@@ -1,14 +1,16 @@
 import React from 'react';
 import BigMap from '../../components/BigMap/bigMap';
 import SideBarWrap from '../../components/SideBarWrap/sideBarWrap';
-import Header from '../../components/Header/header'
+import Logo from '../../components/Logo/logo';
+import LoginForm from '../../components/LoginForm/loginForm';
 
 const LoginPage = () => (
     <div className="Container">
-       <SideBarWrap>
-           <Header />
+       <SideBarWrap >
+           <Logo />
+           <LoginForm />
        </SideBarWrap>
-       <BigMap />
+       <BigMap blurer={true} />
     </div>
 );
 

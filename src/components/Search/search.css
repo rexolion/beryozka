@@ -1,0 +1,32 @@
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    border: solid 2px #ccc;
+}
+
+.Search input{
+    text-decoration: none;
+    width: 90%;
+    height: 30px;
+    border: 0;
+
+
+}
+
+input[type = submit], input[type = reset] {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+ }
+
+ input:focus {
+    outline: none;
+ }

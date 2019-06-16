@@ -1,0 +1,15 @@
+.Login-form-container-input {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.Login-form-container-input input{
+    width: 400px;
+    height: 35px;
+   
+}
