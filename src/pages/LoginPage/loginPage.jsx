@@ -8,7 +8,6 @@ const LoginPage = () => (
     <div className="Container">
        <SideBarWrap >
            <Logo />
-           <LoginForm />
        </SideBarWrap>
        <BigMap blurer={true} />
     </div>
