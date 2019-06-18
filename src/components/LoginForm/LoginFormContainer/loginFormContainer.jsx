@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LoginFormContainerHeading from './LoginFormContainerHeading/loginFormContainerHeading';
 import LoginFormContainerBtn from './LoginFormContainerBtn/loginFormContainerBtn';
 import LoginFormContainerForgotSmall from './LoginFormContainerForgotSmall/loginFormContainerForgotSmall';
@@ -11,7 +12,9 @@ const LoginFormContainer = () => (
         <LoginFormContainerHeading />
         <LoginFormContainerInput />
         <LoginFormContainerInput />
-        <LoginFormContainerBtn />
+        <Link to="/search">
+           <LoginFormContainerBtn />
+        </Link>
         <LoginFormContainerForgotSmall />
         <LoginFormContainerGos />
     </div>

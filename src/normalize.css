@@ -23,6 +23,10 @@ input:focus {
   outline: none;
 }
 
+h6, h5{
+  margin:0;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */

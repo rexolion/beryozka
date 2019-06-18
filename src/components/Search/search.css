@@ -4,6 +4,7 @@
     align-items: center;
     height: 40px;
     width: 80%;
+    margin-top: 50xp;
     border-radius: 10px;
     border: solid 2px #ccc;
 }
@@ -16,17 +17,3 @@
 
 
 }
-
-input[type = submit], input[type = reset] {
-    background-color: orange;
-    border: none;
-    text-decoration: none;
-    color: white;
-    padding: 20px 20px;
-    margin: 20px 20px;
-    cursor: pointer;
- }
-
- input:focus {
-    outline: none;
- }

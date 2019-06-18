@@ -5,6 +5,7 @@ import './normalize.css';
 import LoginPage from './pages/LoginPage/loginPage';
 import { Provider }from 'react-redux';
 import Store from './redux/Store/store';
+import SearchPage from './pages/SearchPage/searchPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <div className="App">
           <Route exact path='/' component={HeroPage} />
           <Route exact path='/login' component={LoginPage} />
+          <Route exact path='/search' component={SearchPage} />
         </div>
       </Router>
     </Provider>

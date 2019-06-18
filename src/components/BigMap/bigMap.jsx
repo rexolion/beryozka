@@ -4,7 +4,7 @@ import { Map } from 'yandex-map-react';
 import './bigMap.css';
 
 const BigMap = ({blurred}) => (
-      <div className="Map">
+      <div className={blurred ? "Map_blurred" : "Map"} >
           <Map zoom={10} center={[44.948237, 34.100318]}/> 
       </div>
   

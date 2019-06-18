@@ -6,12 +6,12 @@
     width: 100%;
 }
 
-.Map_blur > *{
+.Map_blurred > *{
     height: 100vh !important;
     width: 100% !important;
-    filter: blur(1px);
+    filter: blur(2px);
 }
-.Map_blur {
+.map_blurred {
     width: 100%;
-    filter: blur(1px);
+    filter: blur(2px);
 }
