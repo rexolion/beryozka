@@ -1,13 +1,12 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/* Document
+/* 
    ========================================================================== */
 
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
 
  input[type = submit], input[type = reset] {
   background-color: orange;
@@ -390,4 +389,8 @@ template {
 
 [hidden] {
   display: none;
+}
+
+.Container_blur {
+  filter: blur(5px);
 }
