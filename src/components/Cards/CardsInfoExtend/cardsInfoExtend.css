@@ -1,0 +1,16 @@
+.Card-info {
+    display: flex;
+    width: 460px;
+    justify-content: space-between;
+}
+
+.Card-info h4 {
+    color: #777777;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+.Card-info-extend:hover {
+    cursor: pointer;
+}

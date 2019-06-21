@@ -7,8 +7,9 @@ import SideBarWrap from '../../components/SideBarWrap/sideBarWrap';
 import Cards from '../../components/Cards/cards';
 import {openItemModal} from '../../redux/Actions/actions'
 import BigMap from '../../components/BigMap/bigMap';
+import ExtendedSearch from '../../components/ExtendedSearch/extendedSearch';
 
-const SearchPageConnected = ({authorized, itemModalIsOpen, openItemModal}) => {
+const SearchPageConnected = ({authorized, itemModalIsOpen, openItemModal, extendedSearchActivated}) => {
     const locations = buildings.map(val => val.location);
 
     const handleContainerClick = () => {
@@ -23,6 +24,7 @@ const SearchPageConnected = ({authorized, itemModalIsOpen, openItemModal}) => {
         {/* {authorized ? <Search /> : "You're not authorized"} */}
         <Cards />
         </SideBarWrap>
+        {extendedSearchActivated && <ExtendedSearch />}
         <BigMap markers={locations}/>
     </div>
     );
@@ -31,11 +33,15 @@ const SearchPageConnected = ({authorized, itemModalIsOpen, openItemModal}) => {
 
 function mapDispatchToProps(dispatch) {
     return {
-        openItemModal: (toogle) => dispatch(openItemModal(toogle)) 
+        openItemModal: toogle => dispatch(openItemModal(toogle)) 
     };
 };
 
-const mapStateToProps = state => ({ authorized: state.authorized, itemModalIsOpen: state.itemModalIsOpen });
+const mapStateToProps = state => ({ 
+    authorized: state.authorized,
+    itemModalIsOpen: state.itemModalIsOpen,
+    extendedSearchActivated: state.extendedSearchActivated
+});
 
 const SearchPage = connect(mapStateToProps, mapDispatchToProps)(SearchPageConnected);
 

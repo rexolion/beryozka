@@ -1,8 +1,10 @@
 .Cards-item-info-col-heading {
     font-weight: 600;
     font-size: 14px;
+    margin-bottom: 12px;
 }
 .Cards-item-info-col-value {
+    font-weight: 400;
     font-size: 14px;
 }
 .Cards-item-info-col {

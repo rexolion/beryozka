@@ -1,3 +1,5 @@
 .Cards {
     font-family: Poppins;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
