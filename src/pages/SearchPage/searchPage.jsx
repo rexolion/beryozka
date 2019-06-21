@@ -19,7 +19,8 @@ const SearchPageConnected = ({authorized, itemModalIsOpen, openItemModal}) => {
     <div onClick={handleContainerClick} className={itemModalIsOpen ? "Container_blur" : "Container"}>
         <SideBarWrap>
         <Logo />
-        {authorized ? <Search /> : "You're not authorized"}
+        <Search />
+        {/* {authorized ? <Search /> : "You're not authorized"} */}
         <Cards />
         </SideBarWrap>
         <BigMap markers={locations}/>

@@ -7,7 +7,7 @@ export const buildings = [
         rooms: 3,
         area: "200 кв.м",
         location: [44.948237, 34.100318],
-        imgName: "praym-park-moskva-jk-553911960-6.png"
+        imgName: "house.jpg"
 
     },
     {
@@ -18,7 +18,7 @@ export const buildings = [
         rooms: 3,
         area: "200 кв.м",
         location: [44.948237, 34.100318],
-        imgName: "praym-park-moskva-jk-553911960-6.png",
+        imgName: "house.jpg",
 
     },
     {
@@ -29,7 +29,7 @@ export const buildings = [
         rooms: 3,
         area: "200 кв.м",
         location: [44.958839, 34.066312],
-        imgName: "praym-park-moskva-jk-553911960-6.png",
+        imgName: "house.jpg",
         
     },
     {
@@ -40,7 +40,7 @@ export const buildings = [
         rooms: 3,
         area: "200 кв.м",
         location: [44.948420, 34.086242],
-        imgName: "praym-park-moskva-jk-553911960-6.png",
+        imgName: "house.jpg",
 
     }
 ]
